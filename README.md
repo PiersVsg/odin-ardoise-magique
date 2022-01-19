@@ -1,4 +1,4 @@
-# odin-ardoise-magique
+# Odin Project #4: Ardoise Magique
  
 Lien: piersvsg.github.io/odin-ardoise-magique
 

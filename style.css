@@ -1,0 +1,91 @@
+body {
+	display: flex;
+	flex-direction: column;
+	margin: 0px;
+	border: 0px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+	color: whitesmoke;
+	background-color: whitesmoke;
+}
+
+header {
+	margin-bottom: 25px;
+	background-color: teal;
+}
+
+h1 {
+	font-size: 45px;
+	font-weight: bold;
+	color: whitesmoke;
+}
+
+button {
+	border: none;
+	border-radius: 8px;
+	padding: 6px 12px;
+	font-size: 16px;
+	color:  whitesmoke;
+	background-color: #2E3440;
+}
+
+button:hover {
+	background-color: slategrey;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.mode,
+.slider-controls,
+.reset-button {
+	margin: 10px;
+	padding: 10px;
+	border-radius: 8px;
+	background-color: teal;
+
+}
+
+.grid-buttons {
+	border-radius: 8px;
+	background-color: teal;
+}
+
+.mode-buttons {
+	gap: 20px;
+}
+
+.value {
+	margin-bottom: 10px;
+	font-size: 24px;
+}
+
+.grid-container {
+	margin: 20px;
+	border-radius: 8px;
+	height: 540px;
+	width: 540px;
+	background-color: teal;
+}
+
+.grid {
+	display: grid;
+	height: 500px;
+	width: 500px;
+	background-color: #D8DEE9;
+}
+
+.cell {
+	background-color: #D8DEE9;
+}
+
+.cell.coloured {
+	background-color: #2E3440;
+}
+
+.grid-buttons {
+	margin: 20px;
+}

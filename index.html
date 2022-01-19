@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>odin-ardoise-magique</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+	    <header>
+		<h1>Ardoise Magique</h1>
+		</header>
+		<main class="flex">
+			<div class="grid-buttons">
+			<div class="mode">
+			<div id="drawingMode" class="value">Dessine</div>
+			<div class="flex mode-buttons">
+				<button id="btnDraw" class="grid-button">Dessine</button>
+				<button id="btnErase" class="grid-button">Efface</button>
+			</div>
+			</div>
+			<div class="slider-controls">
+			<div id="sliderValue" class="value">16 &times; 16</div>
+			<input id="slider" autocomplete="off" type="range" min="1" max="100" value="16">
+			</div>
+			<div class="reset-button">
+				<button id="btnReset" class="grid-button">Reset</button>
+			</div>
+			</div>
+			<div class="grid-container flex">
+				<div id="grid" class="grid"></div>
+			</div>
+        <script src="script.js" async defer></script>
+    </body>
+</html>

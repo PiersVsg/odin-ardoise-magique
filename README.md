@@ -1,6 +1,6 @@
 # Odin Project #4: Ardoise Magique
  
-Lien: piersvsg.github.io/odin-ardoise-magique
+Lien: https://piersvsg.github.io/odin-ardoise-magique/
 
 Réalisation d’une Ardoise Magique
 
